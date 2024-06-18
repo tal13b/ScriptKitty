@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Script_Kitty.css"/>
+    <script src="Script_Kitty.js"></script> 
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Script Kitty
+          <div class="contact_info">
+            <img src="images/email_icon.png" alt="email icon"/>
+          someone@something.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="images/phone-icon.png" alt="phone icon"/>
+          +13456764598
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="images/kitty-gif.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Script Kitty!
+          </h1>
+          <p>
+            I am an aspiring cloud application developer with 2 years of experience using Azure and AWS cloud services.
+            I have worked on applications and microservices deployed on Microsoft Azure. 
+            I have several certificates including Cloud Computing, Cyber Security, and CompTIA A+ to name a few.
+          </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://world-it.ro/images/logo_html.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/OIP.25vSXGJsvi1u3JIjcfvfNQAAAA?rs=1&pid=ImgDetMain"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="data:image/png;base64,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"/>
+            <h6>CSS3</h6>
+            <p>3 years experience</p>
+          </div>
+        
+          <div class="skill">
+            <img src="data:image/png;base64,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"/>
+            <h6>CompTIA A+</h6>
+            <p>1 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://swimburger.net/media/ppnn3pcl/azure.png"/>
+            <h6>MS Azure</h6>
+            <p>3 years experience</p>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Active Directory</h3>
+            <ul>
+              <li>
+                Configured On-premises Active Directory within Azure Virtual Machines</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>osTicket Installation Tutorial</h3>
+            <ul>
+              <li>Developed and deployed the prerequisites and installation of the open-source help desk ticketing system osTicke</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Tutorial on Network Security Groups (NSGs) and Inspecting Network Protocols</h3>
+            <ul>
+              <li>Created a tutorial to observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Script Kitty is a very quick learner and quickly grasps key concepts of Web development. 
+          She got a great attitude & she is an excellent team player. 
+          She has a curious mind and asks the right question. 
+          She takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Script Kitty has been an awesome experience. 
+          She is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Script Kitty during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation(showPopup(true));">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="images/cat.png"/>
+      <h3>Thank You!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
